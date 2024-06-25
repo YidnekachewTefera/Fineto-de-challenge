@@ -23,7 +23,7 @@ def organize_files(directory='.', recursive=False):
             else:
                 print(f"Ignored file without extension: {file}")
 
-        # If not processing recursively, break after the first directory
+        # If not processing recursively, braek after the first directory
         if not recursive:
             break
 
